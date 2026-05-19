@@ -1,0 +1,36 @@
+# Official MATLAB & Simulink .gitignore Template
+
+# Editor Autosave files
+*.asv
+*.m~
+*.autosave
+
+# Simulink Autosave & Cache files
+*.slx.r*
+*.mdl.r*
+*.slxc
+
+# Derived content-obscured files
+*.p
+
+# Compiled MEX binaries (all platforms)
+*.mex*
+
+# Packaged app and toolbox files
+*.mlappinstall
+*.mltbx
+
+# Deployable archives (MATLAB Compiler)
+*.ctf
+
+# Generated helpsearch folders
+helpsearch*/
+
+# Code generation folders (MATLAB Coder / Simulink Coder)
+slprj/
+sccprj/
+codegen/
+
+# Cloud based storage dotfile
+.MATLABDriveTag
+
